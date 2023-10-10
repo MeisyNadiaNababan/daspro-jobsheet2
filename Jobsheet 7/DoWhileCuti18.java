@@ -23,7 +23,7 @@ public class DoWhileCuti18 {
                     System.out.println("Sisa jatah cuti: " + jatahCuti);
                 } else {
                     System.out.println("Sisa jatah cuti Anda tidak mencukupi");
-                    break;
+                    continue;
                 }
             } else if (konfirmasi.equalsIgnoreCase("t")){
                 break;
